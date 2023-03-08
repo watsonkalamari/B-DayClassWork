@@ -1,0 +1,686 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7328866750086664058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1697449978, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Prefab] Corridor | X_Text_Pop'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  prefab: {fileID: 1470141204089562, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+  position: {x: 0.22596158, y: 0.062499944}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-6749525459151226095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Corridor -> Example Video'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  targetNode: {fileID: 0}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.348407, y: 0.54933196}
+  useTimeline: 0
+  entryTime: 2000
+  exitTime: 2000
+--- !u!114 &-6705273211111519032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] LivingRoom -> Frontdoor'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -5367936982060786086}
+  targetNode: {fileID: -6087563398476411133}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.58655465, y: 0.52016807}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-6414809853753954823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1697449978, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Prefab] Corridor | TransStaticVideo'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  prefab: {fileID: 4372746440914832822, guid: 78c7c5017a9e78a4a94f0bf7a5fe224c, type: 3}
+  position: {x: 0.47732237, y: 0.04904988}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-6087563398476411133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: Frontdoor
+  m_EditorClassIdentifier: 
+  name: Frontdoor
+  position: {x: 360, y: 180}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  elements:
+    elements:
+    - {fileID: 3664306172555679729}
+    - {fileID: -1550452413549504896}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: 576fcb94054170b4898811f98a92bfe3, type: 3}
+  urlLoadDatas:
+  - Url: htttp://www.example.com/360image.png
+--- !u!114 &-5367936982060786086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: LivingRoom
+  m_EditorClassIdentifier: 
+  name: LivingRoom
+  position: {x: 540, y: 180}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  elements:
+    elements:
+    - {fileID: -3716146135415215822}
+    - {fileID: -6705273211111519032}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: 1b1196e69eea38d468c1a2e17b602aef, type: 3}
+  urlLoadDatas: []
+--- !u!114 &-3716146135415215822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] LivingRoom -> Kitchen'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -5367936982060786086}
+  targetNode: {fileID: 1490483729046716833}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.07394958, y: 0.5672269}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-1633404071288427836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Stereo -> Corridor'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 788438353626967939}
+  targetNode: {fileID: 829318939991073187}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.43094406, y: 0.506993}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-1550452413549504896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Frontdoor -> LivingRoom'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -6087563398476411133}
+  targetNode: {fileID: -5367936982060786086}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.9764706, y: 0.5907563}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-158420606756776524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] 360City -> Church_Boys_Mono'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 0}
+  targetNode: {fileID: 0}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.75128466, y: 0.7281603}
+  useTimeline: 1
+  entryTime: 6570.699849113226
+  exitTime: 6570.699849113226
+--- !u!114 &-88765665326937879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1697449978, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Prefab] Corridor | X_Text_Pop'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  prefab: {fileID: 1470141204089562, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+  position: {x: 0.031249976, y: 0.3942305}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -234030243, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: Example Tour
+  m_EditorClassIdentifier: 
+  defaultHotspot:
+    Hotspot: {fileID: 1197682564197598, guid: 4f174464c3dcaab458158a146d582ca5, type: 3}
+    Icon: {fileID: 2800000, guid: 411b3ac736009d74e92415e531b65a21, type: 3}
+  graphBackground: {fileID: 0}
+  graphBackgroundSize: 980
+  graphBackgroundAlpha: 0
+  graphOffset: {x: 28.371353, y: 21.052933}
+  graphZoom: 1
+  nodeCollection:
+    nodes:
+    - {fileID: 829318939991073187}
+    - {fileID: -6087563398476411133}
+    - {fileID: 1490483729046716833}
+    - {fileID: 788438353626967939}
+    - {fileID: -5367936982060786086}
+--- !u!114 &33215285552135258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Kitchen -> LivingRoom'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 1490483729046716833}
+  targetNode: {fileID: 0}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.86625874, y: 0.56643355}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &788438353626967939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: Stereo
+  m_EditorClassIdentifier: 
+  name: Stereo
+  position: {x: 180, y: -0}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  elements:
+    elements:
+    - {fileID: -1633404071288427836}
+  entryYaw: 0.5
+  isStereoscopic: 1
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: 62f2f418e5272f140811387f0ad22f20, type: 3}
+  urlLoadDatas: []
+--- !u!114 &829318939991073187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: Corridor
+  m_EditorClassIdentifier: 
+  name: Corridor
+  position: {x: 180, y: 180}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  elements:
+    elements:
+    - {fileID: 2737843276574493516}
+    - {fileID: 6560561981014109470}
+    - {fileID: 4064165022669695665}
+    - {fileID: 7118335814987692405}
+    - {fileID: 2198502337374208658}
+    - {fileID: 8426313370938107454}
+    - {fileID: -6414809853753954823}
+    - {fileID: -88765665326937879}
+    - {fileID: -7328866750086664058}
+    - {fileID: 6401223165507494984}
+    - {fileID: 1924094640185817233}
+    - {fileID: 1355211779764926184}
+  entryYaw: 0.64
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 1
+  durationMs: 5000
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: 0b1aef10f0ba3864ea8b4979f674a01d, type: 3}
+  urlLoadDatas: []
+--- !u!114 &917436940170498694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Corridor -> Church_Boys_Mono'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  targetNode: {fileID: 0}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.29086328, y: 0.39136863}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &1355211779764926184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1697449978, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Prefab] Corridor | X_Image_Pop'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  prefab: {fileID: 1815369673840772, guid: a112494f1fd7a7347a41590f9e251c98, type: 3}
+  position: {x: 0.84503186, y: 0.4047402}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &1490483729046716833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: Kitchen
+  m_EditorClassIdentifier: 
+  name: Kitchen
+  position: {x: 540, y: 360}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  elements:
+    elements:
+    - {fileID: 2037781599765952003}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: be8b02e7f0002f7418cd9f74ce4341dd, type: 3}
+  urlLoadDatas: []
+--- !u!114 &1924094640185817233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1697449978, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Prefab] Corridor | X_Text_Pop'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  prefab: {fileID: 1470141204089562, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+  position: {x: 0.69951946, y: 0.29807693}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &2037781599765952003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Kitchen -> LivingRoom'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 1490483729046716833}
+  targetNode: {fileID: -5367936982060786086}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.8755304, y: 0.53960395}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &2184290363495489895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Frontdoor -> LivingRoom'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -6087563398476411133}
+  targetNode: {fileID: 0}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.9816434, y: 0.5909091}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &2198502337374208658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1697449978, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Prefab] Corridor | AudioSource'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  prefab: {fileID: 1291931455156708, guid: 6205a49a0ff0d5744b0e3da8d7321b5e, type: 3}
+  position: {x: 0.26323867, y: 0.6918649}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &2385542774353117010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Corridor -> 360City'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  targetNode: {fileID: 0}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.42581716, y: 0.45096353}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &2737843276574493516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Corridor -> Frontdoor'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  targetNode: {fileID: -6087563398476411133}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.4737764, y: 0.6748253}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &3664306172555679729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Frontdoor -> Corridor'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -6087563398476411133}
+  targetNode: {fileID: 829318939991073187}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.7429465, y: 0.32982552}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &4064165022669695665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1697449978, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Prefab] Corridor | Node Menu'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  prefab: {fileID: 1891569674852309265, guid: 084844b03956ece47b32e2d113618b8e, type: 3}
+  position: {x: 0.48897713, y: 0.41411173}
+  useTimeline: 0
+  entryTime: 443.03804636001587
+  exitTime: 2968.929708003998
+--- !u!114 &6401223165507494984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1697449978, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Prefab] Corridor | X_Text_Pop'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  prefab: {fileID: 1470141204089562, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+  position: {x: 0.31250006, y: 0.48557693}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &6560561981014109470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Corridor -> Stereo'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  targetNode: {fileID: 788438353626967939}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.10475612, y: 0.55224484}
+  useTimeline: 1
+  entryTime: 0
+  exitTime: 4548.076838254929
+--- !u!114 &7118335814987692405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1697449978, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Prefab] Corridor | Text Static'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  prefab: {fileID: 1083626773130278, guid: fac570353cbcfe24c98ef4105024e9bb, type: 3}
+  position: {x: 0.56741506, y: 0.5635112}
+  useTimeline: 1
+  entryTime: 1000
+  exitTime: 3000
+--- !u!114 &8426313370938107454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1697449978, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Prefab] Corridor | Image Popup'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 829318939991073187}
+  prefab: {fileID: 1815369673840772, guid: 2152a83dbf910b7488b6149889b9addf, type: 3}
+  position: {x: 0.8196766, y: 0.9077378}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0

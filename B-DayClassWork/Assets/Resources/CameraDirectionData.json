@@ -1,0 +1,4 @@
+{"angles":{"x":3.4712202548980715,"y":64.57382202148438,"z":1.0691784524397008e-7},"previousNode":"Corridor","NextNode":"Frontdoor"}
+{"angles":{"x":19.218887329101564,"y":149.69993591308595,"z":9.041645512297691e-7},"previousNode":"Frontdoor","NextNode":"LivingRoom"}
+{"angles":{"x":316.9768981933594,"y":217.65213012695313,"z":0.0},"previousNode":"Corridor","NextNode":"Stereo"}
+{"angles":{"x":22.030933380126954,"y":311.5494384765625,"z":-9.21025446132262e-7},"previousNode":"Stereo","NextNode":"Corridor"}

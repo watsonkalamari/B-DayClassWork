@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8897993852753264782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] miami downtown helicopter -> Miami Skatepark'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -3717935303483754643}
+  targetNode: {fileID: 6834015553042163843}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.30477586, y: 0.6778382}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-7910923583868672467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Miami Skatepark -> miami downtown helicopter'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 6834015553042163843}
+  targetNode: {fileID: -3717935303483754643}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.31943882, y: 0.40552995}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-3717935303483754643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: miami downtown helicopter
+  m_EditorClassIdentifier: 
+  name: miami downtown helicopter
+  position: {x: 450, y: 270}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  elements:
+    elements:
+    - {fileID: -8897993852753264782}
+    - {fileID: 6287168323976620916}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: 5f8869e22a4ccbe4b8f2f106daa92e33, type: 3}
+  urlLoadDatas: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -234030243, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: Miami
+  m_EditorClassIdentifier: 
+  defaultHotspot:
+    Hotspot: {fileID: 1197682564197598, guid: 4f174464c3dcaab458158a146d582ca5, type: 3}
+    Icon: {fileID: 2800000, guid: 411b3ac736009d74e92415e531b65a21, type: 3}
+  graphBackground: {fileID: 0}
+  graphBackgroundSize: 1000
+  graphBackgroundAlpha: 1
+  graphOffset: {x: 99.54022, y: -120.98523}
+  graphZoom: 1.0943711
+  nodeCollection:
+    nodes:
+    - {fileID: 6834015553042163843}
+    - {fileID: -3717935303483754643}
+    - {fileID: 3024911782033535206}
+--- !u!114 &980101530382460732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] miami downtown beach trees -> miami downtown helicopter'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 3024911782033535206}
+  targetNode: {fileID: -3717935303483754643}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.6095517, y: 0.32593212}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &3024911782033535206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: miami downtown beach trees
+  m_EditorClassIdentifier: 
+  name: miami downtown beach trees
+  position: {x: 390, y: 450}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  elements:
+    elements:
+    - {fileID: 980101530382460732}
+    - {fileID: 6058114691017813077}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: 7794797b6927f854784f0a55b11b6f3a, type: 3}
+  urlLoadDatas: []
+--- !u!114 &4148316277732409570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] Miami Skatepark -> miami downtown beach trees'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 6834015553042163843}
+  targetNode: {fileID: 3024911782033535206}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.60640967, y: 0.4809384}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &6058114691017813077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] miami downtown beach trees -> Miami Skatepark'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 3024911782033535206}
+  targetNode: {fileID: 6834015553042163843}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.40741515, y: 0.522832}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &6287168323976620916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] miami downtown helicopter -> miami downtown beach trees'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -3717935303483754643}
+  targetNode: {fileID: 3024911782033535206}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.56556344, y: 0.6841223}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &6834015553042163843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: Miami Skatepark
+  m_EditorClassIdentifier: 
+  name: Miami Skatepark
+  position: {x: 210, y: 330}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  elements:
+    elements:
+    - {fileID: -7910923583868672467}
+    - {fileID: 4148316277732409570}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: f12be77996874194cb7ddf7fb266864e, type: 3}
+  urlLoadDatas: []

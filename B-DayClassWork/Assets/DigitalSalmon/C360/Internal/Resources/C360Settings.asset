@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 959635398, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: C360Settings
+  m_EditorClassIdentifier: 
+  nodeSnapThreshold: 30
+  mappedElementSnapThreshold: 0.015625
+  entryYawSnapThreshold: 0.015625
+  disableVideoThumbnails: 0
+  ffmpegPath: C:\Git\complete-360-tour\Complete360Tour\C360\ffmpeg.exe
+  thumbnailWidth: 2048
+  thumbnailHeight: 1024
+  defaultSeekTime: 0
+  useProSkin: 1
+  verboseDebug: 1
