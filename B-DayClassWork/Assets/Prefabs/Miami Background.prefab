@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5764742434954288800
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1470141204089562, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_Name
+      value: Miami Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904910276731076, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114533378152202796, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: colorA.b
+      value: 0.7735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 114533378152202796, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: colorA.g
+      value: 0.026347196
+      objectReference: {fileID: 0}
+    - target: {fileID: 114533378152202796, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: colorA.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114533378152202796, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: colorB.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114533378152202796, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: colorB.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114533378152202796, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: colorB.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114712809421427572, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: sizeB
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 114918193248975152, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114918193248975152, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114918193248975152, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114918193248975152, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224131920372084532, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224131920372084532, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224131920372084532, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224131920372084532, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224131920372084532, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224658423966714766, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224658423966714766, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224658423966714766, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224658423966714766, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224658423966714766, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224872414812672102, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224872414812672102, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224872414812672102, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224872414812672102, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224872414812672102, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 396269565891585631, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_text
+      value: 'Bayfront Park is a 32-acre public, urban park in Downtown Miami, Florida
+        on Biscayne Bay. Bayfront Park hosts many large events such as the New Year''s
+        ball drop, Christmas celebrations, concerts, the Bayfront Park Amphitheater,
+        the Tina Hills Pavilion, as well as boat tours around Biscayne Bay. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1091614794479536587, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: body
+      value: 'Bayfront Park is a 32-acre public, urban park in Downtown Miami, Florida
+        on Biscayne Bay. Bayfront Park hosts many large events such as the New Year''s
+        ball drop, Christmas celebrations, concerts, the Bayfront Park Amphitheater,
+        the Tina Hills Pavilion, as well as boat tours around Biscayne Bay. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1091614794479536587, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: title
+      value: Welcome to Bayfront Park
+      objectReference: {fileID: 0}
+    - target: {fileID: 1091614794479536587, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: subtitle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363922563324068851, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_text
+      value: Welcome to Bayfront Park
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033926676042655941, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
