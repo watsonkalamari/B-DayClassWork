@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ownerNode: {fileID: -3717935303483754643}
   prefab: {fileID: 6957704396035989915, guid: 892fed31dcf97914b98d74f1fc12437d, type: 3}
-  position: {x: 0.14034352, y: 0.50984496}
+  position: {x: 0.900712, y: 0.54335994}
   useTimeline: 0
   entryTime: 0
   exitTime: 0
@@ -86,6 +86,7 @@ MonoBehaviour:
     - {fileID: 6287168323976620916}
     - {fileID: 6230093141149703051}
     - {fileID: -9019308255493065703}
+    - {fileID: 580494945923166477}
   entryYaw: 0.383
   isStereoscopic: 0
   projection: 0
@@ -121,6 +122,24 @@ MonoBehaviour:
     - {fileID: 6834015553042163843}
     - {fileID: -3717935303483754643}
     - {fileID: 3024911782033535206}
+--- !u!114 &580494945923166477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1697449978, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Prefab] miami downtown helicopter | TextDisplayTextPopup'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -3717935303483754643}
+  prefab: {fileID: 8565332409252691248, guid: c292b9afd8c538d48b37c49e7658e761, type: 3}
+  position: {x: 0.07750315, y: 0.5035609}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
 --- !u!114 &980101530382460732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,7 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ownerNode: {fileID: -3717935303483754643}
   prefab: {fileID: 5766089279456367738, guid: 6ebc668e178e9bd49b505b85fa96a510, type: 3}
-  position: {x: 0.06493506, y: 0.516129}
+  position: {x: 0.82425636, y: 0.5559279}
   useTimeline: 0
   entryTime: 0
   exitTime: 0
